@@ -12,6 +12,7 @@
 		5C6A892921B5796300F34A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A892721B5796300F34A00 /* Main.storyboard */; };
 		5C6A892B21B5796500F34A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A892A21B5796500F34A00 /* Assets.xcassets */; };
 		5C6A892E21B5796500F34A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A892C21B5796500F34A00 /* LaunchScreen.storyboard */; };
+		5C6A893621B57C4400F34A00 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A893521B57C4400F34A00 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5C6A892A21B5796500F34A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C6A892D21B5796500F34A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C6A892F21B5796500F34A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6A893521B57C4400F34A00 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5C6A892221B5796300F34A00 /* Word Scramble */ = {
 			isa = PBXGroup;
 			children = (
+				5C6A893521B57C4400F34A00 /* start.txt */,
 				5C6A892321B5796300F34A00 /* AppDelegate.swift */,
 				5C6A892521B5796300F34A00 /* ViewController.swift */,
 				5C6A892721B5796300F34A00 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6A892E21B5796500F34A00 /* LaunchScreen.storyboard in Resources */,
+				5C6A893621B57C4400F34A00 /* start.txt in Resources */,
 				5C6A892B21B5796500F34A00 /* Assets.xcassets in Resources */,
 				5C6A892921B5796300F34A00 /* Main.storyboard in Resources */,
 			);
@@ -282,8 +286,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = "Word Scramble/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +295,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Word-Scramble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +305,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = "Word Scramble/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Word-Scramble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
